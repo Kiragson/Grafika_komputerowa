@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="obiekty">
+      <UniqueIdentifier>{4d95c6b3-8280-4e19-8d78-8c8b954fea6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Źródło.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="objloader.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="controls.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="ziemia.cpp">
+      <Filter>obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="wally.cpp">
+      <Filter>obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="woda.cpp">
+      <Filter>obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="Obiekty.cpp">
+      <Filter>obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="Stodola.cpp">
+      <Filter>obiekty</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="objloader.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="controls.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ziemia.h">
+      <Filter>obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="wally.h">
+      <Filter>obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="woda.h">
+      <Filter>obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="Obiekty.h">
+      <Filter>obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="Stodola.h">
+      <Filter>obiekty</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
